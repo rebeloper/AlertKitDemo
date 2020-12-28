@@ -347,7 +347,7 @@
 			repositoryURL = "https://github.com/rebeloper/AlertKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.8;
+				minimumVersion = 0.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
