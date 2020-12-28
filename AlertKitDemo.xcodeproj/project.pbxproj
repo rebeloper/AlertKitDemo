@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91610F32598A77700F9128B /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91610F22598A77700F9128B /* ContentViewModel.swift */; };
 		C91D6BF12595E938009A0930 /* AlertKitDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91D6BF02595E938009A0930 /* AlertKitDemoApp.swift */; };
 		C91D6BF32595E938009A0930 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91D6BF22595E938009A0930 /* ContentView.swift */; };
 		C91D6BF52595E939009A0930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C91D6BF42595E939009A0930 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C91610F22598A77700F9128B /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		C91D6BED2595E938009A0930 /* AlertKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C91D6BF02595E938009A0930 /* AlertKitDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertKitDemoApp.swift; sourceTree = "<group>"; };
 		C91D6BF22595E938009A0930 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				C91D6BF02595E938009A0930 /* AlertKitDemoApp.swift */,
 				C91D6BF22595E938009A0930 /* ContentView.swift */,
+				C91610F22598A77700F9128B /* ContentViewModel.swift */,
 				C91D6BF42595E939009A0930 /* Assets.xcassets */,
 				C91D6BF92595E939009A0930 /* Info.plist */,
 				C91D6BF62595E939009A0930 /* Preview Content */,
@@ -148,6 +151,7 @@
 			files = (
 				C91D6BF32595E938009A0930 /* ContentView.swift in Sources */,
 				C91D6BF12595E938009A0930 /* AlertKitDemoApp.swift in Sources */,
+				C91610F32598A77700F9128B /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
