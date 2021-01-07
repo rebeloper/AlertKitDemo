@@ -13,6 +13,7 @@
 		C91D6BF52595E939009A0930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C91D6BF42595E939009A0930 /* Assets.xcassets */; };
 		C91D6BF82595E939009A0930 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C91D6BF72595E939009A0930 /* Preview Assets.xcassets */; };
 		C91D6C022595E976009A0930 /* AlertKit in Frameworks */ = {isa = PBXBuildFile; productRef = C91D6C012595E976009A0930 /* AlertKit */; };
+		C9D62CA625A5C43700802B67 /* UniAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D62CA525A5C43700802B67 /* UniAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C91D6BF42595E939009A0930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C91D6BF72595E939009A0930 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C91D6BF92595E939009A0930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9D62CA525A5C43700802B67 /* UniAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniAlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C91D6BF02595E938009A0930 /* AlertKitDemoApp.swift */,
 				C91D6BF22595E938009A0930 /* ContentView.swift */,
 				C91610F22598A77700F9128B /* ContentViewModel.swift */,
+				C9D62CA525A5C43700802B67 /* UniAlertView.swift */,
 				C91D6BF42595E939009A0930 /* Assets.xcassets */,
 				C91D6BF92595E939009A0930 /* Info.plist */,
 				C91D6BF62595E939009A0930 /* Preview Content */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D62CA625A5C43700802B67 /* UniAlertView.swift in Sources */,
 				C91D6BF32595E938009A0930 /* ContentView.swift in Sources */,
 				C91D6BF12595E938009A0930 /* AlertKitDemoApp.swift in Sources */,
 				C91610F32598A77700F9128B /* ContentViewModel.swift in Sources */,
@@ -347,7 +351,7 @@
 			repositoryURL = "https://github.com/rebeloper/AlertKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.0;
+				minimumVersion = 0.1.8;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
